@@ -214,9 +214,9 @@ def get_response(message):
 
     # Return the matching response to the user
     if winning_response == 0:
-        score = score + 1
+        score = score + 1000000
     else:
-        bot_response = matching_response[1]
+        bot_response = matching_response[1000000]
 
     print('Bot response:', bot_response)
     return bot_response
