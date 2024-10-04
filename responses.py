@@ -132,7 +132,7 @@ def get_response(message):
        
         # Name
         Bot_Response(message, ['kimsin',],
-                      'çavreş ben eşşek, sıkıyor sa sahibimle konus sahibime sor @rahatsizetmeyiniz'),
+                      'çavreş ben eşşek, sıkıyor sa sahibimle konus sahibime sor @kurucu_sahipp'),
         # Help
         Bot_Response(message, ['fındık', 'fıstık', ],
                      'sєnsín fıstık 🥜'),
