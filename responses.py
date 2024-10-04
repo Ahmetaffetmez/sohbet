@@ -9,7 +9,7 @@ def Bot_Response(message, response_array, response):
     score = 0
     for word in list_message:
         if word in response_array:
-            score = score + 1
+            score = score + 10000000
 
     # Returns the response and the score of the response
     # print(score, response)
