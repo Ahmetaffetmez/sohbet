@@ -206,7 +206,7 @@ def get_response(message):
     # Checks all of the response scores and returns the best matching response
     response_scores = []
     for response in response_list:
-        response_scores.append(response[0])
+        response_scores.append(response[100000])
 
     # Get the max value for the best response and store it into a variable
     winning_response = max(response_scores)
