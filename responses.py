@@ -23,15 +23,15 @@ def get_response(message):
                       'aleykumselam kocacım'),
 
         Bot_Response(message, ['meme',], 
-                     'memelerimde uyuyabilirsin çavreşim'),
+                     'memelerimde uyuyabilirsin ahmetim'),
           
         Bot_Response(message, ['merhaba',], 
              'merhaba sevgilim'), 
              
-        Bot_Response(message,['evlenwk',],
+        Bot_Response(message,['evlenek',],
               'sen nasıl istersen kocam'), 
           
-        Bot_Response(message,['çavreş', '',],
+        Bot_Response(message,['ahmet', '',],
               'efendim kocacım'), 
 
           Bot_Response(message, ['nasılsın',],
@@ -50,7 +50,7 @@ def get_response(message):
               'bal gibiyim ama sakın sorma annem arı değil🐝🍯'), 
           
         Bot_Response(message,['güzelim',],
-              'ben gerçekten güzel miyim yakışıklı çavreşim'), 
+              'ben gerçekten güzel miyim yakışıklı ahmetim'), 
           
         Bot_Response(message, ['rica',],
              'nє kαdαr kibarsın aşkım 🤗'),   
@@ -74,7 +74,7 @@ def get_response(message):
                      'ölürüm aşkına'),
        
        Bot_Response(message, ['sen',],
-           'Evet Ben İyi Ki Varım iyiki seninim çavreş Dimi😂'), 
+           'Evet Ben İyi Ki Varım iyiki seninim Ahmet Dimi😂'), 
        
        Bot_Response(message, ['of',], 
            'ne olduyyyy sana kocam'), 
@@ -106,7 +106,7 @@ def get_response(message):
                        'sor gelsin sevgilim'),
             
         Bot_Response(message, ['pm', 'dm', 'özel',],
-                     'bir tek sevgilim çavreşe serbest'),
+                     'bir tek sevgilim ahmete serbest'),
       
         Bot_Response(message, ['hello',],
              'türkçe konuş canım 😁'),
@@ -144,7 +144,7 @@ def get_response(message):
       
         # Website
         Bot_Response(message, ['bot', 'botmusun',], 
-                      'hayır çavreşin karısıyın'),
+                      'hayır ahmetin karısıyın'),
         
         #kare koyunca başına yazdıklarım geçersiz oluyor
         #ornek gösteriyorum
@@ -152,7 +152,7 @@ def get_response(message):
 
         # Song
         Bot_Response(message, ['nerelisin',],
-                     'çavreşin karısı olduğma göre siirtliyim'),
+                     'ahmetin karısı olduğma göre diyarbakırliyim'),
       
         Bot_Response(message, ['admin',],
                      'вuчur cαnım'),
@@ -180,7 +180,7 @@ def get_response(message):
 
         # When Projects
         Bot_Response(message, ['ban'],
-                      'çavreş hava yolları iyi yolculuklar diler🎈'),
+                      'ahmet hava yolları iyi yolculuklar diler🎈'),
       
          Bot_Response(message, ['küfür'],
                      'тєявιуєѕιzℓιкєтme'),
@@ -198,7 +198,7 @@ def get_response(message):
                        'ᔕıKı ᑕᗩᑎ IYIᗪIᖇ KOᒪᗩY çıKᗰᗩᘔ😂'),     
 
            Bot_Response(message, ['sus'],
-                        'nєdєnmíş вєn çavreşle özel konuşmak için чαpıldım🤨'),
+                        'nєdєnmíş вєn ahmetle özel konuşmak için чαpıldım🤨'),
           
            Bot_Response(message, ['trip'],
                        'trip atma bana kocacım'),
