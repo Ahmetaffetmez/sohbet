@@ -9,7 +9,7 @@ def Bot_Response(message, response_array, response):
     score = 0
     for word in list_message:
         if word in response_array:
-            score = score + 10000000
+            score = score + 60
 
     # Returns the response and the score of the response
     # print(score, response)
@@ -206,7 +206,7 @@ def get_response(message):
     # Checks all of the response scores and returns the best matching response
     response_scores = []
     for response in response_list:
-        response_scores.append(response[100000])
+        response_scores.append(response[60])
 
     # Get the max value for the best response and store it into a variable
     winning_response = max(response_scores)
@@ -214,9 +214,9 @@ def get_response(message):
 
     # Return the matching response to the user
     if winning_response == 0:
-        score = score + 1000000
+        score = score + 60
     else:
-        bot_response = matching_response[1000000]
+        bot_response = matching_response[60]
 
     print('Bot response:', bot_response)
     return bot_response
